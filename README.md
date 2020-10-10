@@ -33,6 +33,8 @@ Main features
 * Smart image preloading and code optimization.
 * Keyboard Navigation for desktop.
 * Font icon support.
+* Accessibility support.
+* Rotate, flip images.
 * And many more.
  
 Browser support
@@ -42,24 +44,30 @@ lightgallery supports all major browsers including IE 8 and above.
 
 Installation
 ---
-#### Install with Bower
 
-You can Install  ```lightgallery``` and its modules using the [Bower](http://bower.io) package manager.
+### Install with NPM
+
+You can install `lightgallery` using the [npm](https://www.npmjs.com/) package manager.
 
 ```sh
-$ bower install lightgallery --save
+npm install lightgallery
 ```
+
 Or Install all modules together
-``` sh
-$ bower install lightgallery lg-thumbnail lg-autoplay lg-video lg-fullscreen lg-pager lg-zoom lg-hash lg-share
-```
-
-#### npm
-
-You can also find ```lightgallery``` on [npm](http://npmjs.org).
 
 ```sh
-$ npm install lightgallery lg-thumbnail lg-autoplay lg-video lg-fullscreen lg-pager lg-zoom lg-hash lg-share
+$ npm install lightgallery lg-thumbnail lg-autoplay lg-video lg-fullscreen lg-pager lg-zoom lg-hash lg-share lg-rotate
+```
+
+You can also find `lightgallery` on [Yarn](https://yarnpkg.com/) and [Bower](http://bower.io).
+### Yarn
+```sh
+yarn add lightgallery
+```
+### Bower
+
+```sh
+bower install lightgallery --save
 ```
 #### Download from Github
 
@@ -179,6 +187,7 @@ Modules
 6. Zoom - [GItHub](https://github.com/sachinchoolur/lg-zoom) - [Docs](https://sachinchoolur.github.io/lightGallery/docs/api.html#lg-zoom)
 7. Hash - [GItHub](https://github.com/sachinchoolur/lg-hash) - [Docs](https://sachinchoolur.github.io/lightGallery/docs/api.html#lg-hash)
 8. Share - [GItHub](https://github.com/sachinchoolur/lg-share) - [Docs](https://sachinchoolur.github.io/lightGallery/docs/api.html#lg-share)
+8. Rotate - [GItHub](https://github.com/sachinchoolur/lg-rotate) - [Docs](https://sachinchoolur.github.io/lightGallery/docs/api.html#lg-rotate)
 
 9. exif - [GitHub](https://github.com/amcolash/lg-exif) - Author - [Andrew McOlash
 ](https://github.com/amcolash)
